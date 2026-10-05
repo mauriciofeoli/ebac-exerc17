@@ -1,0 +1,28 @@
+{
+  "name": "ebac-mobile-automation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Projeto de automação mobile para o app EBAC Shop usando WebDriverIO + Appium",
+  "scripts": {
+    "test": "npx wdio run ./wdio.conf.js",
+    "wdio": "npx wdio run ./wdio.conf.js"
+  },
+  "keywords": [
+    "wdio",
+    "appium",
+    "android",
+    "ebac",
+    "mobile"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@wdio/cli": "^9.12.1",
+    "@wdio/local-runner": "^9.12.1",
+    "@wdio/mocha-framework": "^9.12.1",
+    "@wdio/spec-reporter": "^9.12.1",
+    "appium-uiautomator2-driver": "^3.0.0",
+    "mocha": "^11.2.0",
+    "wdio": "^9.12.1",
+    "webdriverio": "^9.12.1"
+  }
+}
